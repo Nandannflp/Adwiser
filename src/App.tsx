@@ -25,7 +25,7 @@ export default function App() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 w-full px-6 py-4 flex justify-between items-center z-[100] backdrop-blur-md border-b border-border bg-background/90">
         <div className="flex items-center gap-3">
-          <img src={theme === "dark" ? "/Adwiser/logo-dark.png" : "/Adwiser/logo-transparent.png"} alt="Adwiser Logo" className="h-10 md:h-12 object-contain" />
+          <img src="/Adwiser/logo-new.png" alt="Adwiser Logo" className="h-10 md:h-12 object-contain" />
         </div>
         <div className="flex items-center gap-8">
           <a href="#services" className="hidden md:block text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Services</a>
@@ -60,7 +60,7 @@ export default function App() {
           </div>
 
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold font-syne mb-8 leading-[1.1] tracking-tight text-foreground drop-shadow-lg">
-            Scale your brand to the <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-500">stratosphere</span>
+            Scale your brand to the <span className="text-primary drop-shadow-[0_0_15px_rgba(204,252,26,0.5)]">stratosphere</span>
           </h1>
 
           <p className="text-xl sm:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed drop-shadow">
@@ -104,7 +104,7 @@ export default function App() {
           <div className="max-w-7xl mx-auto px-6 relative z-10">
             <div className="flex flex-col lg:flex-row items-center gap-16 mb-20">
               <div className="lg:w-1/2">
-                <h2 className="text-4xl md:text-6xl font-bold font-syne mb-6 text-foreground">End-to-end digital solutions</h2>
+                <h2 className="text-4xl md:text-6xl font-bold font-syne mb-6 text-foreground">End-to-end <span className="text-primary drop-shadow-[0_0_15px_rgba(204,252,26,0.5)]">digital</span> solutions</h2>
                 <p className="text-xl text-muted-foreground">Built for modern brands that want to dominate their niche. We combine data-driven marketing with world-class engineering.</p>
               </div>
               <div className="lg:w-1/2 relative">
@@ -167,7 +167,7 @@ export default function App() {
       <section id="trust" className="py-24 px-6 relative z-10 bg-muted/10 border-y border-border">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-syne mb-6 text-foreground">Trusted by industry leaders</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-syne mb-6 text-foreground">Trusted by <span className="text-primary drop-shadow-[0_0_15px_rgba(204,252,26,0.5)]">industry</span> leaders</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12">Don't just take our word for it. See what our partners have achieved.</p>
             
             <div className="max-w-3xl mx-auto mb-16">
@@ -196,7 +196,7 @@ export default function App() {
               <div className="grid lg:grid-cols-2 gap-16 relative z-10">
                 <div className="text-left lg:pr-8">
                   <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold font-syne mb-6 text-foreground">
-                    Let's scale your business.
+                    Let's <span className="text-primary drop-shadow-[0_0_15px_rgba(204,252,26,0.5)]">scale</span> your business.
                   </h2>
                   <p className="text-xl text-muted-foreground mb-12 max-w-xl">
                     Ready to achieve record-breaking growth? Tell us about your project and we'll get back to you within 24 hours.
@@ -289,7 +289,7 @@ export default function App() {
           <div className="grid md:grid-cols-4 gap-12 mb-16">
             <div className="md:col-span-2">
               <div className="flex items-center gap-3 mb-6">
-                <img src={theme === "dark" ? "/Adwiser/logo-dark.png" : "/Adwiser/logo-transparent.png"} alt="Adwiser Logo" className="h-10 md:h-12 object-contain opacity-90" />
+                <img src="/Adwiser/logo-new.png" alt="Adwiser Logo" className="h-10 md:h-12 object-contain opacity-90" />
               </div>
               <p className="text-muted-foreground max-w-sm mb-8 text-lg">
                 Building high-converting digital experiences for ambitious brands across the globe.

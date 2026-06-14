@@ -64,7 +64,7 @@ export default function PricingSection4() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-syne mb-4 text-foreground">
-            Simple, Transparent Pricing
+            Simple, <span className="text-primary drop-shadow-[0_0_15px_rgba(204,252,26,0.5)]">Transparent</span> Pricing
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Choose a plan that fits your goals. No hidden fees, no surprises.
