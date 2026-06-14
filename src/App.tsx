@@ -1,6 +1,7 @@
 import PricingSection4 from "@/components/ui/pricing-section-4"
 import { useState, useEffect } from "react"
 import { Moon, Sun } from "lucide-react"
+import { MeshGradient } from "@paper-design/shaders-react"
 
 export default function App() {
   const [theme, setTheme] = useState<"light" | "dark">("dark")
@@ -37,9 +38,14 @@ export default function App() {
 
       {/* Hero Section */}
       <header className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden pt-24">
-        {/* Animated Background Blobs */}
-        <div className="absolute top-[10%] left-[20%] w-[40vw] h-[40vw] bg-primary/40 dark:bg-primary/20 rounded-full blur-[100px] animate-pulse-slow mix-blend-screen pointer-events-none z-0"></div>
-        <div className="absolute bottom-[10%] right-[10%] w-[35vw] h-[35vw] bg-blue-500/40 dark:bg-blue-500/20 rounded-full blur-[100px] animate-pulse-slow mix-blend-screen pointer-events-none z-0" style={{animationDelay: '-5s'}}></div>
+        {/* Animated Background Mesh Gradient */}
+        <div className="absolute inset-0 z-0 opacity-50 dark:opacity-40">
+          <MeshGradient
+            className="w-full h-full"
+            colors={["#0a0a0f", "#7b2cbf", "#3b82f6", "#ec4899"]}
+            speed={0.2}
+          />
+        </div>
 
         <div className="relative z-10 max-w-4xl text-center">
           <div className="inline-block px-6 py-2 mb-8 rounded-full border border-primary/30 bg-primary/10 text-primary font-semibold backdrop-blur-md text-sm uppercase tracking-wider">
