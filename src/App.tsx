@@ -25,8 +25,7 @@ export default function App() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 w-full px-6 py-4 flex justify-between items-center z-[100] backdrop-blur-md border-b border-border bg-background/90">
         <div className="flex items-center gap-3">
-          <img src="/Adwiser/logo.png" alt="Adwiser Logo" className="w-8 h-8 md:w-10 md:h-10 object-contain dark:invert" />
-          <div className="text-xl font-bold font-syne tracking-tight text-foreground">Adwiser.</div>
+          <img src={theme === "dark" ? "/Adwiser/logo-dark.png" : "/Adwiser/logo-transparent.png"} alt="Adwiser Logo" className="h-10 md:h-12 object-contain" />
         </div>
         <div className="flex items-center gap-8">
           <a href="#services" className="hidden md:block text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Services</a>
@@ -290,8 +289,7 @@ export default function App() {
           <div className="grid md:grid-cols-4 gap-12 mb-16">
             <div className="md:col-span-2">
               <div className="flex items-center gap-3 mb-6">
-                <img src="/Adwiser/logo.png" alt="Adwiser Logo" className="w-10 h-10 object-contain dark:invert opacity-80" />
-                <div className="text-2xl font-bold font-syne tracking-tight text-foreground">Adwiser.</div>
+                <img src={theme === "dark" ? "/Adwiser/logo-dark.png" : "/Adwiser/logo-transparent.png"} alt="Adwiser Logo" className="h-10 md:h-12 object-contain opacity-90" />
               </div>
               <p className="text-muted-foreground max-w-sm mb-8 text-lg">
                 Building high-converting digital experiences for ambitious brands across the globe.

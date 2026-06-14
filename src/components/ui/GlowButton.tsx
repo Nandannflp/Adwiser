@@ -11,9 +11,9 @@ export const GlowButton = React.forwardRef<HTMLButtonElement, GlowButtonProps>(
     const baseClasses = "relative inline-flex items-center justify-center px-8 py-4 font-bold text-lg rounded-xl transition-all duration-300 overflow-hidden group focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-background"
     
     const variants = {
-      primary: "bg-primary text-primary-foreground hover:scale-105 shadow-[0_0_20px_rgba(123,44,191,0.5)] focus:ring-primary",
+      primary: "bg-primary text-primary-foreground hover:scale-105 shadow-[0_0_20px_rgba(204,252,26,0.5)] focus:ring-primary",
       secondary: "bg-blue-600 text-white hover:scale-105 shadow-[0_0_20px_rgba(59,130,246,0.5)] focus:ring-blue-500",
-      outline: "border-2 border-primary/50 text-foreground hover:border-primary hover:bg-primary/10 hover:shadow-[0_0_15px_rgba(123,44,191,0.3)] focus:ring-primary",
+      outline: "border-2 border-primary/50 text-foreground hover:border-primary hover:bg-primary/10 hover:shadow-[0_0_15px_rgba(204,252,26,0.3)] focus:ring-primary",
       ghost: "text-foreground hover:bg-white/5 focus:ring-white/20"
     }
 
